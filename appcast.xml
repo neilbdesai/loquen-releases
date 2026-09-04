@@ -1,9 +1,30 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
-  <channel>
-    <title>Sotto</title>
-    <link>https://neilbdesai.github.io/sotto-releases/appcast.xml</link>
-    <description>Updates for Sotto.</description>
-    <language>en</language>
-  </channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Sotto</title>
+        <link>https://neilbdesai.github.io/sotto-releases/appcast.xml</link>
+        <description>Updates for Sotto.</description>
+        <language>en</language>
+        <item>
+            <title>0.1.0</title>
+            <pubDate>Fri, 04 Sep 2026 10:17:45 -0400</pubDate>
+            <link>https://github.com/neilbdesai/sotto-releases</link>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Sotto 0.1.0
+
+First release.
+
+- Hold fn (or Right Command on external keyboards), talk, let go. Clean text lands in the front app.
+- Everything runs on your Mac. Speech by Parakeet, cleanup by Apple's on-device model. Nothing leaves the machine in Private mode.
+- Sotto phrases: say "sotto" plus a name to insert a stored block.
+- Medical vocabulary: core pack plus ten specialty packs.
+- Learning dictionary, per-app tone rules, "send it", paste last (⌃⌘V), mute music while dictating.
+- History with stats, audio archive, and Retry.
+]]></description>
+            <enclosure url="https://github.com/neilbdesai/sotto-releases/releases/download/v0.1.0/Sotto-0.1.0.dmg" length="14998726" type="application/octet-stream" sparkle:edSignature="kAqYaQJJOIskCHD9731XQ7B5GRg8rOWJvPbuuVWYckA36iDzlwRk4Ni82qVIUGH5SmMXi73BxUOBaF8ykmVZDA=="/>
+        </item>
+    </channel>
 </rss>
