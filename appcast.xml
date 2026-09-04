@@ -6,6 +6,27 @@
         <description>Updates for Sotto.</description>
         <language>en</language>
         <item>
+            <title>0.1.1</title>
+            <pubDate>Fri, 04 Sep 2026 14:06:34 -0400</pubDate>
+            <link>https://github.com/neilbdesai/sotto-releases</link>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Sotto 0.1.1
+
+- Input Monitoring setup that works on macOS 26: the setup card opens the list and a Finder window with Sotto selected so you can drag it in. macOS shows no prompt for this permission.
+- Accessibility card triggers the system prompt so Sotto appears in that list.
+- Cleanup no longer adds words after what you said, such as starting to answer a dictated question.
+- Usage descriptions for Input Monitoring and Accessibility. App category set to Productivity.
+- Release builds no longer carry the debug entitlement.
+]]></description>
+            <enclosure url="https://github.com/neilbdesai/sotto-releases/releases/download/v0.1.1/Sotto-0.1.1.dmg" length="14999754" type="application/octet-stream" sparkle:edSignature="oHvKWnkhLNQv6lwup6bDYfE4V+GryXHQToC0pUJ+3rm6ho95p2Byk1enQEViBEOqkU2qSlxPY3ipUfr0Wj2DDA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/neilbdesai/sotto-releases/releases/download/v0.1.1/Sotto4-3.delta" sparkle:deltaFrom="3" length="292710" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="HjgyEKB9qsEpD5D5gpJ6oRpaNZwHBcp9m4kRJkfTizc3fQPew+pBEg+ELBxUqkYN+nNiHaChv4uT6yr5KdTmAA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.1.0</title>
             <pubDate>Fri, 04 Sep 2026 10:17:45 -0400</pubDate>
             <link>https://github.com/neilbdesai/sotto-releases</link>
@@ -13,18 +34,7 @@
             <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Sotto 0.1.0
-
-First release.
-
-- Hold fn (or Right Command on external keyboards), talk, let go. Clean text lands in the front app.
-- Everything runs on your Mac. Speech by Parakeet, cleanup by Apple's on-device model. Nothing leaves the machine in Private mode.
-- Sotto phrases: say "sotto" plus a name to insert a stored block.
-- Medical vocabulary: core pack plus ten specialty packs.
-- Learning dictionary, per-app tone rules, "send it", paste last (⌃⌘V), mute music while dictating.
-- History with stats, audio archive, and Retry.
-]]></description>
-            <enclosure url="https://github.com/neilbdesai/sotto-releases/releases/download/v0.1.0/Sotto-0.1.0.dmg" length="14998726" type="application/octet-stream" sparkle:edSignature="kAqYaQJJOIskCHD9731XQ7B5GRg8rOWJvPbuuVWYckA36iDzlwRk4Ni82qVIUGH5SmMXi73BxUOBaF8ykmVZDA=="/>
+            <enclosure url="https://github.com/neilbdesai/sotto-releases/releases/download/v0.1.1/Sotto-0.1.0.dmg" length="14998726" type="application/octet-stream" sparkle:edSignature="kAqYaQJJOIskCHD9731XQ7B5GRg8rOWJvPbuuVWYckA36iDzlwRk4Ni82qVIUGH5SmMXi73BxUOBaF8ykmVZDA=="/>
         </item>
     </channel>
 </rss>
