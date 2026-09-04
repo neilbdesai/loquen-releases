@@ -1,0 +1,7 @@
+# The DMGs live in GitHub Releases, not in git. generate_appcast needs them in the
+# working copy while it runs; it must never commit them.
+*.dmg
+*.zip
+old_updates/
+Sotto-*.md
+.DS_Store
