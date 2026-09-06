@@ -3,5 +3,6 @@
 *.dmg
 *.zip
 old_updates/
+Loquen-*.md
 Sotto-*.md
 .DS_Store
