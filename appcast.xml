@@ -1,9 +1,35 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
-  <channel>
-    <title>Loquen</title>
-    <link>https://neilbdesai.github.io/loquen-releases/appcast.xml</link>
-    <description>Updates for Loquen.</description>
-    <language>en</language>
-  </channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Loquen</title>
+        <link>https://neilbdesai.github.io/loquen-releases/appcast.xml</link>
+        <description>Updates for Loquen.</description>
+        <language>en</language>
+        <item>
+            <title>0.1.43</title>
+            <pubDate>Sun, 27 Sep 2026 22:23:27 -0400</pubDate>
+            <link>https://github.com/neilbdesai/loquen-releases</link>
+            <sparkle:version>47</sparkle:version>
+            <sparkle:shortVersionString>0.1.43</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Loquen 0.1.43
+
+The first public build with Qwen3-ASR, Loquen's new speech engine.
+
+- **Qwen3-ASR 1.7B is now the speech engine.** In testing on medical dictation it made far fewer word errors than the earlier engines, and it gets drug names right much more often. It runs entirely on your Mac.
+- **One-time 2.2 GB download.** The first launch downloads the Qwen model, shows progress, and picks up where it left off if your connection drops. Every file is checked before use. After that, nothing about your speech leaves your Mac.
+- **Drug-name recheck.** When a medication name sounds uncertain, Loquen checks it again against your enabled vocabulary packs.
+- **Faster long dictations.** Loquen transcribes long dictations in pieces while you are still talking, so the text lands a few seconds after you let go.
+- **Hands-free fixed.** A double tap of fn starts hands-free mode again, and a tap cancels. Key presses were being measured in the wrong unit on Apple Silicon.
+- **Paste last (⌃⌘V) fixed**, and it pastes exactly once per press.
+- **Spoken punctuation cleaned up.** "New line", "new paragraph" and "period" no longer leave an extra period behind.
+- **Safer pasting.** In apps where Loquen cannot confirm the paste, such as Messages, your old clipboard now stays away long enough that the app always pastes your dictation.
+- **Redaction wording.** A name after "the patient" no longer becomes "the patient the patient".
+
+Requires macOS 15 or later on an Apple Silicon Mac, and about 3 GB of free disk space.
+]]></description>
+            <enclosure url="https://github.com/neilbdesai/loquen-releases/releases/download/v0.1.43/Loquen-0.1.43.dmg" length="114697439" type="application/octet-stream" sparkle:edSignature="tDVh6jUHYhJ01qBtF73TFY54tjEvTd6hoX6Yo4P+7D1YA9is7kyVe6G1ZiulNeHu73BD4H8FJaFH/Gpey5nXDQ=="/>
+        </item>
+    </channel>
 </rss>
