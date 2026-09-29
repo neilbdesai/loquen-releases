@@ -6,14 +6,19 @@
         <description>Updates for Loquen.</description>
         <language>en</language>
         <item>
-            <title>0.1.45</title>
-            <pubDate>Mon, 28 Sep 2026 15:28:20 -0400</pubDate>
+            <title>0.1.47</title>
+            <pubDate>Tue, 29 Sep 2026 08:55:20 -0400</pubDate>
             <link>https://github.com/neilbdesai/loquen-releases</link>
-            <sparkle:version>49</sparkle:version>
-            <sparkle:shortVersionString>0.1.45</sparkle:shortVersionString>
+            <sparkle:version>51</sparkle:version>
+            <sparkle:shortVersionString>0.1.47</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Loquen 0.1.45
+            <description sparkle:format="markdown"><![CDATA[# Loquen 0.1.47
+
+- **Faster on Macs with 8 GB of memory.** Loquen now keeps the speech model in memory, so the first dictation after a break no longer takes many seconds while the model loads back in.
+- **No wait for AI cleanup when it cannot help.** A dictation that is only a command, like "insert date", skips cleanup. And if cleanup runs out of time 3 times in a row on your Mac, Loquen pauses it until the next launch instead of adding a delay to every dictation. Settings ▸ Cleanup tells you when that happens.
+
+# Loquen 0.1.45
 
 - **Numbers said the short way.** "One forty over ninety" now types 140 over 90, and "one sixty-two pounds" types 162. Before, they came out as "1 40". When a dose word follows, as in "one fifty milligram tablet", Loquen leaves the numbers apart, because that could mean one 50 mg tablet.
 
@@ -33,7 +38,21 @@ The first public build with Qwen3-ASR, Loquen's new speech engine.
 
 Requires macOS 15 or later on an Apple Silicon Mac, and about 3 GB of free disk space.
 ]]></description>
-            <enclosure url="https://github.com/neilbdesai/loquen-releases/releases/download/v0.1.45/Loquen-0.1.45.dmg" length="114752567" type="application/octet-stream" sparkle:edSignature="Jljyfs7JZKpqNO5kyIqAwDKxP0HN+pGvFbQfMF5MenXv9ehIKiCbaVBv+zydrpWSzgEpjkssMp082MbV8ONWDQ=="/>
+            <enclosure url="https://github.com/neilbdesai/loquen-releases/releases/download/v0.1.47/Loquen-0.1.47.dmg" length="114712865" type="application/octet-stream" sparkle:edSignature="Xp7aYDNDipkEqOeKXHIkVBEjpq5qpHXOFw+GafRsHnHxjJ5zlxVBwCjQWWETmzwmVp5Tk1bSHyklVDd61pLcCQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/neilbdesai/loquen-releases/releases/download/v0.1.47/Loquen51-49.delta" sparkle:deltaFrom="49" length="595818" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="kj4MhdFwajIfK362SQ2UMIOaDrKWJJ7oQCmjKugPw+XhRJvgwLJ1Cdk4J/N0Bvi6Limn0oLPmCAi6eaVVCOxAA=="/>
+                <enclosure url="https://github.com/neilbdesai/loquen-releases/releases/download/v0.1.47/Loquen51-47.delta" sparkle:deltaFrom="47" length="635818" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="hChLm29jTsP6QG7YNHYeUiz1yXuIXO9DKDLx7LpIJn/tdoP+5PfU7nrSVT91aP2auquM8NfTEP0MFe3ya5rbCA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>0.1.45</title>
+            <pubDate>Mon, 28 Sep 2026 15:28:20 -0400</pubDate>
+            <link>https://github.com/neilbdesai/loquen-releases</link>
+            <sparkle:version>49</sparkle:version>
+            <sparkle:shortVersionString>0.1.45</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/neilbdesai/loquen-releases/releases/download/v0.1.47/Loquen-0.1.45.dmg" length="114752567" type="application/octet-stream" sparkle:edSignature="Jljyfs7JZKpqNO5kyIqAwDKxP0HN+pGvFbQfMF5MenXv9ehIKiCbaVBv+zydrpWSzgEpjkssMp082MbV8ONWDQ=="/>
             <sparkle:deltas>
                 <enclosure url="https://github.com/neilbdesai/loquen-releases/releases/download/v0.1.45/Loquen49-47.delta" sparkle:deltaFrom="47" length="474670" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="EQITFi0KSUMCE5VAP2Ov735S5uaOK5hxRTOLLWrcoKm7g04HmeTYsPt6lRM+V/fdHQNHGOilqOh7g6hdwk/6Cg=="/>
             </sparkle:deltas>
@@ -46,7 +65,7 @@ Requires macOS 15 or later on an Apple Silicon Mac, and about 3 GB of free disk 
             <sparkle:shortVersionString>0.1.43</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/neilbdesai/loquen-releases/releases/download/v0.1.45/Loquen-0.1.43.dmg" length="114697439" type="application/octet-stream" sparkle:edSignature="tDVh6jUHYhJ01qBtF73TFY54tjEvTd6hoX6Yo4P+7D1YA9is7kyVe6G1ZiulNeHu73BD4H8FJaFH/Gpey5nXDQ=="/>
+            <enclosure url="https://github.com/neilbdesai/loquen-releases/releases/download/v0.1.47/Loquen-0.1.43.dmg" length="114697439" type="application/octet-stream" sparkle:edSignature="tDVh6jUHYhJ01qBtF73TFY54tjEvTd6hoX6Yo4P+7D1YA9is7kyVe6G1ZiulNeHu73BD4H8FJaFH/Gpey5nXDQ=="/>
         </item>
     </channel>
 </rss>
